@@ -43,8 +43,10 @@ int main(void)
     // If the entry is a regular file, output the filename prepended with 
     // "File: " so we know it is a file when examining the program output
     if (entry->d_type == DT_REG)
+//    (*entry).d_type
     {
       printf("File: %s\n", entry->d_name);
+      //                 (*entry).d_name
     }
     // Otherwise if the entry is a directory, output the directory name 
     // prepended with "dir: " again so we know what what it is when looking 

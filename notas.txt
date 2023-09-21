@@ -1,0 +1,3 @@
+ponteiro de diretorio chamado directory
+
+entry = 
