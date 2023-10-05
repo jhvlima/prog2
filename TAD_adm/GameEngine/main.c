@@ -103,7 +103,7 @@ int init(tGameEngine * eng) {
 int main() {
 	
 	//Cria uma game engine com 3 estado e com 100000 ciclos sem processamento
-	tGameEngine * gameEngine = CriaGameEngine(3, 100000);
+	tGameEngine * gameEngine = CriaGameEngine(3, 5000);
 	init(gameEngine);
 	
 	//Loop principal que realiza jogo e chama a dispara a callback

@@ -11,6 +11,7 @@ int main()
 
     FILE *f = fopen("saida.txt", "w");
     fprintf(f, "%s", nome);
+    //faltou fclose
 
     return 0;
 }
