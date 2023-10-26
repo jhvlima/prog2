@@ -1,0 +1,10 @@
+8
+obedece 0
+faznada 0
+ciclano 0
+fulano 1
+dentrano 0
+faztudo 0
+dizquemanda 1
+mandao 2
+

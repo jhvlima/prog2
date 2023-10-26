@@ -1,0 +1,5 @@
+(4.20,-2.00) v1
+(5.50,2.30) v2
+(-2.00,4.20) v1 trocado
+(3.50,6.50) v1 trocado + v2
+4.51 produto escalar
