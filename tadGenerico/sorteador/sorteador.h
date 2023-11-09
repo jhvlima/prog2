@@ -3,19 +3,19 @@
 
 typedef struct _tSorteador tSorteador;
 
-//Cria um sorteador de elementos
-tSorteador * CriaSorteador(int usarSemente);
+// Cria um sorteador de elementos
+tSorteador *CriaSorteador(int usarSemente);
 
-//Finaliza um sorteador
-void FinalizaSorteador(tSorteador * sort);
+// Finaliza um sorteador
+void FinalizaSorteador(tSorteador *sort);
 
-//Adiciona elemento para ser sorteado
-void AdicionaElementoSorteador(tSorteador * sort, void* elem);
+// Adiciona elemento para ser sorteado
+void AdicionaElementoSorteador(tSorteador *sort, void *elem);
 
-//Sorteia um elemento e retira dos elementos a serem sorteados
-void * SorteiaElementoSorteador(tSorteador * sort);
+// Sorteia um elemento e retira dos elementos a serem sorteados
+void *SorteiaElementoSorteador(tSorteador *sort);
 
-//Tem elementos
-int TemElementosSorteador(tSorteador * sort);
+// Tem elementos
+int TemElementosSorteador(tSorteador *sort);
 
 #endif

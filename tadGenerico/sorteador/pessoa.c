@@ -3,24 +3,28 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct _tPessoa{
-    int idade; 
-	char*nome;
+struct _tPessoa
+{
+    int idade;
+    char *nome;
 };
 
-tPessoa * CriaPessoa(char nome[], int idade){
-	tPessoa * pess = malloc(sizeof(tPessoa));
+tPessoa *CriaPessoa(char nome[], int idade)
+{
+    tPessoa *pess = malloc(sizeof(tPessoa));
     pess->idade = idade;
-    pess->nome = malloc((strlen(nome)+1)*sizeof(char));
+    pess->nome = malloc((strlen(nome) + 1) * sizeof(char));
     strcpy(pess->nome, nome);
-	return pess;
+    return pess;
 }
 
-void FinalizaPessoa(tPessoa * pess){
+void FinalizaPessoa(tPessoa *pess)
+{
     free(pess->nome);
-    free(pess);    
+    free(pess);
 }
 
-void ImprimePessoa(tPessoa * pess){
+void ImprimePessoa(tPessoa *pess)
+{
     printf("%s tem %d anos.\n", pess->nome, pess->idade);
 }
