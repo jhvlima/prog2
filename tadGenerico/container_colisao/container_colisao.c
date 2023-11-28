@@ -7,7 +7,7 @@
 struct _tContainerColisao
 {
     int quantidadeElementos;
-    tElementoContainer **elementos;// ponto, retangulo
+    tElementoContainer **elementos; // ponto, retangulo
 };
 
 tContainerColisao *CriaContainerColisao()
